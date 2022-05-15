@@ -1,10 +1,10 @@
 # 💫About Me :
-I'm currently working with Amethyst Studio.
-I'm looking to collaborate on Libraries, Tooling, and Applications.
-I'm looking for help on ideas for projects. If you are looking for anything, please let me know!
-I'm currently learning how to better design user interfaces.
-Ask me about TypeScript and Backend Services.
-A fun fact about me is that I have taught myself everything I know.
+I'm currently working with Amethyst Studio.  
+I'm looking to collaborate on Libraries, Tooling, and Applications.  
+I'm looking for help on ideas for projects. If you are looking for anything, please let me know!  
+I'm currently learning how to better design user interfaces.  
+Ask me about TypeScript and Backend Services.  
+A fun fact about me is that I have taught myself everything I know.  
 
 ## 🌐Socials
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](htttps://discord.gg/STa28JKGQQ) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/samuel-voeller) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/xCykrix) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/xCykrix) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/xCykrix) 

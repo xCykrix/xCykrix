@@ -1,0 +1,80 @@
+
+name: "Bug Report 🐛"
+description: Found an issue? Report it!
+title: "(BUG): ..."
+labels: ["Type: Bug", "Meta: Conversation"]
+assignees: ["xCykrix"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to reach out and report issues with this project! 🤗
+        Please feel free to browse existing issues to see if this issue has been reported as well.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Report Context
+      description: Please provide a detailed description of the root issue, what happened, and what should have happened.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Installed Version
+      description: Please provide the version of this project installed. You can specify a branch, hash, or release.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: System Environment
+      description: Please provide details about the system running into this issue. Details such as the OS, Host Version, etc. can be useful.
+      placeholder: Windows 10 - Version	10.0.19045 Build 19045, NixOS 24.05, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Please provide clear and concise steps to reproduce this behavior. Include what was installed and the steps taken, such as how you would build a PB&J.
+        Alternatively, you can provide a 'Minimum Reproducable Example' that is a self-contained Git Repository demonstrating this behavior.
+      placeholder: |
+        This can be the steps you took, how you configured your project, or a working code example to demonstrate the above issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: exception
+    attributes:
+      label: Error Message
+      description: Please provide a full error message or stack trace; if applicable.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra-information
+    attributes:
+      label: Extra Information
+      description: Please provide any other information such as log files, screenshots, etc; if applicable.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: affirmations
+    attributes:
+      label: Please affirm the following options.
+      description: |
+        Affirmations are required for your issue to be triaged and resolved.
+        These can be reviewed with the informational bubble at the bottom of this page or the 'Helpful Resources' section to the right.
+      options:
+        - label: I Agree to the [Code of Conduct](./CODE_OF_CONDUCT.md)
+          required: true
+        - label: I Agree to the [Contributing Guidelines](./CONTRIBUTING.md)
+          required: true
+        - label: I Agree to the [Security Reporting Guidelines](./SECURITY.md)
+          required: true
